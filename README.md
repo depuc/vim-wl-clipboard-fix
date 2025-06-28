@@ -53,3 +53,21 @@ augroup AutoCopyWL
   autocmd!
   autocmd TextYankPost * silent! call system('wl-copy', getreg('"'))
 augroup END
+```
+## 📚 How to Use
+
+### 📋 Copy from Vim to your system clipboard
+
+1. Open a file in Vim.
+2. Press `v` to enter **visual mode** (or `V` for visual line mode).
+3. Move your cursor to select the text you want to copy.
+4. Press `\y` (that’s `<leader>y`) to copy the selection.
+5. You can now paste it into any other app using `Ctrl+V`.
+
+### 📥 Paste into Vim from your system clipboard
+
+1. In **normal mode**, move your cursor where you want the clipboard content inserted.
+2. Press `\p` (that’s `<leader>p`).
+3. The content from your clipboard will be pasted right there.
+
+---
