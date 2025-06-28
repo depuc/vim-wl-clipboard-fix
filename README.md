@@ -36,7 +36,7 @@ sudo apt install wl-clipboard
 sudo pacman -S wl-clipboard
 
 
-## 🧾 Vim Clipboard Workaround Snippet
+### 🧾 Vim Clipboard Workaround Snippet
 
 Add the following lines to your `~/.vimrc` (or source the `wayland-clipboard.vim` file in this repo):
 
