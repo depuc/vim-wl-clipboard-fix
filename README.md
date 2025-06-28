@@ -31,10 +31,11 @@ This setup maps new clipboard commands in Vim that use `wl-copy` and `wl-paste` 
 ```bash
 # Debian/Ubuntu
 sudo apt install wl-clipboard
-
+```
+```
 # Arch
 sudo pacman -S wl-clipboard
-
+```
 
 ### 🧾 Vim Clipboard Workaround Snippet
 
